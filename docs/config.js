@@ -36,7 +36,7 @@ var config = {
   "enableLipSync": false,
   "minHDHeight": 540,
   "enableLayerSuspension": true,
-  "websocket": "wss://pade.chat:5443/ws/",
+  "websocket": "wss://rooms.mtsrecruit.online/xmpp-websocket",
   "startAudioMuted": 9,
   "channelLastN": -1,
   "adaptiveLastN": false,
@@ -63,7 +63,7 @@ var config = {
   "maxFullResolutionParticipants": -1,
   "useStunTurn": false,
   "openBridgeChannel": "websocket",
-  "bosh": "https://pade.chat:5443/http-bind/",
+  "bosh": "https://rooms.mtsrecruit.online/http-bind/",
   "enableNoAudioDetection": true,
   "defaultLanguage": "en",
   "useRoomAsSharedDocumentName": false,
@@ -93,6 +93,6 @@ var config = {
   "disableSimulcast": true,
   "startAudioOnly": false,
   "ofmeetLiveStream": false,
-  "focusUserJid": "focus@pade.chat",
+  "focusUserJid": "focus@rooms.mtsrecruit.online",
   "enableRemb": true
 };
