@@ -75,7 +75,7 @@ var interfaceConfig = {
   "OFMEET_TAG_CONFERENCE": true,
   "filmStripOnly": false,
   "REMOTE_THUMBNAIL_RATIO": 1,
-  "OFMEET_WELCOME_PAGE_TITLE": "ipade",
+  "OFMEET_WELCOME_PAGE_TITLE": "MTS Recruit Peer Groups",
   "OFMEET_CONFETTI_EMOTICON_CLOSE_MENU": true,
   "DEFAULT_BACKGROUND": "#474747",
   "BRAND_WATERMARK_LINK": "",
