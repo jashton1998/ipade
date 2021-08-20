@@ -39,7 +39,7 @@ var config = {
   
   "startAudioMuted": 9,
   "channelLastN": -1,
-  "websocket": "wss://rooms.mtsrecruit.online:9090/xmpp-websocket",
+  "websocket": "wss://rooms.mtsrecruit.online:443/colibri-ws",
   "adaptiveLastN": false,
   "hosts": {
     "domain": "rooms.mtsrecruit.online",
