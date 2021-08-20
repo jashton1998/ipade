@@ -41,9 +41,9 @@ var config = {
   "channelLastN": -1,
   "adaptiveLastN": false,
   "hosts": {
-    "domain": "pade.chat",
-    "focus": "focus.pade.chat",
-    "muc": "conference.pade.chat"
+    "domain": "rooms.mtsrecruit.online",
+    "focus": "focus.rooms.mtsrecruit.online",
+    "muc": "conference.rooms.mtsrecruit.online"
   },
   "testing": {
     "capScreenshareBitrate": 1,
