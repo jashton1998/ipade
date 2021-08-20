@@ -39,7 +39,7 @@ var config = {
   
   "startAudioMuted": 9,
   "channelLastN": -1,
-  "websocket": "wss://rooms.mtsrecruit.online:5443/ws/",
+  "websocket": "wss://rooms.mtsrecruit.online/ws/",
   "adaptiveLastN": false,
   "hosts": {
     "domain": "rooms.mtsrecruit.online",
@@ -64,7 +64,7 @@ var config = {
   "maxFullResolutionParticipants": -1,
   "useStunTurn": false,
   "openBridgeChannel": "websocket",
-  "bosh": "https://rooms.mtsrecruit.online:5443/http-bind/",
+  "bosh": "https://rooms.mtsrecruit.online/http-bind/",
   "enableNoAudioDetection": true,
   "defaultLanguage": "en",
   "useRoomAsSharedDocumentName": false,
