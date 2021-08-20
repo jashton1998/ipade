@@ -4,7 +4,7 @@ var interfaceConfig = {
   "OFMEET_CACHE_PASSWORD": true,
   "OFMEET_ALLOW_UPLOADS": true,
   "SHOW_POWERED_BY": false,
-  "APP_NAME": "ipade",
+  "APP_NAME": "MTS Recruit Peer Groups",
   "OFMEET_ENABLE_BREAKOUT": true,
   "SHOW_PROMOTIONAL_CLOSE_PAGE": true,
   "SHADOW_COLOR": "#ffffff",
