@@ -20,7 +20,7 @@ var config = {
       "max": 1080
     }
   }},
-  "hiddenDomain": "recorder.pade.chat",
+  "hiddenDomain": "recorder.mtsrecruit.online",
   "videoQuality": {
     "minHeightForQualityLvl": {
       "720": "high",
@@ -93,6 +93,6 @@ var config = {
   "disableSimulcast": true,
   "startAudioOnly": false,
   "ofmeetLiveStream": false,
-  "focusUserJid": "focus@pade.chat",
+  "focusUserJid": "focus@rooms.mtsrecruit.online",
   "enableRemb": true
 };
