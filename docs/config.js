@@ -6,7 +6,7 @@ var config = {
   "enableRtpStats": true,
   "noticeMessage": "",
   "enableRecording": false,
-  "resolution": 1080,
+  "resolution": 720,
   "constraints": {"video": {
     "width": {
       "ideal": 1280,
@@ -20,7 +20,7 @@ var config = {
       "max": 1080
     }
   }},
-  "hiddenDomain": "recorder.mtsrecruit.online",
+  "hiddenDomain": "recorder.pade.chat",
   "videoQuality": {
     "minHeightForQualityLvl": {
       "720": "high",
@@ -36,15 +36,14 @@ var config = {
   "enableLipSync": false,
   "minHDHeight": 540,
   "enableLayerSuspension": true,
-  
+  "websocket": "wss://pade.chat:5443/ws/",
   "startAudioMuted": 9,
   "channelLastN": -1,
-  "websocket": "wss://rooms.mtsrecruit.online:5280/xmpp-websockets",
   "adaptiveLastN": false,
   "hosts": {
-    "domain": "rooms.mtsrecruit.online",
-    "focus": "focus.rooms.mtsrecruit.online",
-    "muc": "conference.rooms.mtsrecruit.online"
+    "domain": "pade.chat",
+    "focus": "focus.pade.chat",
+    "muc": "conference.pade.chat"
   },
   "testing": {
     "capScreenshareBitrate": 1,
@@ -63,13 +62,13 @@ var config = {
   "enableWelcomePage": true,
   "maxFullResolutionParticipants": -1,
   "useStunTurn": false,
-  "openBridgeChannel": true,
-  "bosh": "https://rooms.mtsrecruit.online/http-bind/",
+  "openBridgeChannel": "websocket",
+  "bosh": "https://pade.chat:5443/http-bind/",
   "enableNoAudioDetection": true,
   "defaultLanguage": "en",
   "useRoomAsSharedDocumentName": false,
   "recordingType": "colibri",
-  "clientNode": "https://rooms.mtsrecruit.online",
+  "clientNode": "http://igniterealtime.org/ofmeet/jitsi-meet/",
   "conferences": [],
   "enableNoisyMicDetection": true,
   "desktopSharingFirefoxDisabled": false,
@@ -94,6 +93,6 @@ var config = {
   "disableSimulcast": true,
   "startAudioOnly": false,
   "ofmeetLiveStream": false,
-  "focusUserJid": "focus@auth.rooms.mtsrecruit.online",
+  "focusUserJid": "focus@pade.chat",
   "enableRemb": true
 };
