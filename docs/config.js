@@ -6,16 +6,16 @@ var config = {
   "enableRtpStats": true,
   "noticeMessage": "",
   "enableRecording": false,
-  "resolution": 720,
+  "resolution": 1080,
   "constraints": {"video": {
     "width": {
-      "ideal": 1280,
+      "ideal": 1920,
       "min": 426,
       "max": 3840
     },
     "aspectRatio": 16 / 9,
     "height": {
-      "ideal": 720,
+      "ideal": 1080,
       "min": 360,
       "max": 1080
     }
@@ -68,7 +68,7 @@ var config = {
   "defaultLanguage": "en",
   "useRoomAsSharedDocumentName": false,
   "recordingType": "colibri",
-  "clientNode": "http://igniterealtime.org/ofmeet/jitsi-meet/",
+  "clientNode": "https://rooms.mtsrecruit.online",
   "conferences": [],
   "enableNoisyMicDetection": true,
   "desktopSharingFirefoxDisabled": false,
