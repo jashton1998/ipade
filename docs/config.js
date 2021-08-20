@@ -39,6 +39,7 @@ var config = {
   
   "startAudioMuted": 9,
   "channelLastN": -1,
+  "websocket": "wss://rooms.mtsrecruit.online:5443/ws/",
   "adaptiveLastN": false,
   "hosts": {
     "domain": "rooms.mtsrecruit.online",
