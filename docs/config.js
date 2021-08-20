@@ -9,13 +9,13 @@ var config = {
   "resolution": 1080,
   "constraints": {"video": {
     "width": {
-      "ideal": 1920,
+      "ideal": 1280,
       "min": 426,
       "max": 3840
     },
     "aspectRatio": 16 / 9,
     "height": {
-      "ideal": 1080,
+      "ideal": 720,
       "min": 360,
       "max": 1080
     }
@@ -42,8 +42,8 @@ var config = {
   "adaptiveLastN": false,
   "hosts": {
     "domain": "rooms.mtsrecruit.online",
-    "focus": "focus.mtsrecruit.online",
-    "muc": "conference.mtsrecruit.online"
+    "focus": "focus.rooms.mtsrecruit.online",
+    "muc": "conference.rooms.mtsrecruit.online"
   },
   "testing": {
     "capScreenshareBitrate": 1,
