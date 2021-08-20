@@ -36,7 +36,7 @@ var config = {
   "enableLipSync": false,
   "minHDHeight": 540,
   "enableLayerSuspension": true,
-  "websocket": "ws://rooms.mtsrecruit.online:5443/ws/",
+  
   "startAudioMuted": 9,
   "channelLastN": -1,
   "adaptiveLastN": false,
