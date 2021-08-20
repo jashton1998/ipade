@@ -94,6 +94,6 @@ var config = {
   "disableSimulcast": true,
   "startAudioOnly": false,
   "ofmeetLiveStream": false,
-  "focusUserJid": "focus@rooms.mtsrecruit.online",
+  "focusUserJid": "focus@auth.rooms.mtsrecruit.online",
   "enableRemb": true
 };
