@@ -68,7 +68,7 @@ var config = {
   "defaultLanguage": "en",
   "useRoomAsSharedDocumentName": false,
   "recordingType": "colibri",
-  "clientNode": "http://igniterealtime.org/ofmeet/jitsi-meet/",
+  "clientNode": "https://rooms.mtsrecruit.online",
   "conferences": [],
   "enableNoisyMicDetection": true,
   "desktopSharingFirefoxDisabled": false,
