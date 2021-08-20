@@ -63,7 +63,7 @@ var config = {
   "enableWelcomePage": true,
   "maxFullResolutionParticipants": -1,
   "useStunTurn": false,
-  "openBridgeChannel": "true",
+  "openBridgeChannel": true,
   "bosh": "https://rooms.mtsrecruit.online/http-bind/",
   "enableNoAudioDetection": true,
   "defaultLanguage": "en",
